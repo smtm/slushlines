@@ -1,0 +1,26 @@
+**slushlines 
+
+*Introduction 
+slushlines is a new media form of delivering the story. Think movie script, think mashup, think youtube, think anarchy. 
+It is written collaboratively by everyone who wants to chip in and get their favourite slushlines and scenes mashed into a slushlines production. 
+Use readily available media and scenes stored on public video sites, such as youtube to create the end product. You reference to the video, set inpoint and 
+outpoint ...
+
+* The actors - handling a changing cast 
+To keep the narrative smooth we need the ensure that the viewer can grasp which character is supposed to be which as we switch to scenes from different movies as we develop the story. So they need to be similarly inclined archetypes. Look out for that when choosing the scenes for the composition.
+
+* Why Git/Github?
+Git and Github are used to emphasize that everyone can participate in this project. Just clone the repository, develop the story further, push your branch and ask others to pull your version. Chances are that you might not be familiar with git or any other SCM (being Source Control Management). That is stuff being used for software development to keep track of changes and keep everybody sane whilst doing so, and not work in a program like MSWord with the "track change mode", which will drive you insane if more than three people are making changes, apart from wrecking the document. You sill soon get to love the 
+pushing and pulling from the cloned versions of the repository where others have published their changes.
+
+* Directory structure 
+The story is written in plain text files, to enable tracking changes. 
+Make frequent use of line breaks. This makes it easier to track subsequent changes via git commits.
+
+* referencing scenes 
+You use existing scenes available in video sites.
+To include References to scenes the following syntax is used:
+  [clip:url,in,out]
+  [clip:http://www.youtube.com/watch?v=pbTIvu34uz0,13,125]
+13 and 25 are the seconds for the inpoint and the outpoint
+
